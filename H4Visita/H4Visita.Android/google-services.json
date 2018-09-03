@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "512455136912",
+    "firebase_url": "https://h4visita-1533134851816.firebaseio.com",
+    "project_id": "h4visita-1533134851816",
+    "storage_bucket": "h4visita-1533134851816.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512455136912:android:3ada970aa4b5f395",
+        "android_client_info": {
+          "package_name": "br.com.haus4.h4visita.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512455136912-fq26m6eoknimca9ovr6upe8okf8s9mg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9lamnfu2wOxozj7lnuPL899ui8wJFIZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

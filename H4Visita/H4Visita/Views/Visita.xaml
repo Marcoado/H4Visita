@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="H4Visita.Views.Visita">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Data"/>
+            <DatePicker x:Name="dtVisita"></DatePicker>
+            <Label Text="Observações"></Label>
+            <Editor x:Name="txtObservacoes"></Editor>
+            <Button x:Name="btnSalvar" Text="Salvar" Clicked="btnSalvar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

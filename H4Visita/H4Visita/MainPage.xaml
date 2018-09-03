@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:H4Visita"
+             x:Class="H4Visita.MainPage"
+             Title="Empresas">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="bntAddEmpresa" Clicked="bntAddEmpresa_OnClicked" Order="Primary" Text="Add Empresa" Icon="add.png" Priority="0"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar x:Name="srcEmpresa" TextChanged="srcEmpresa_Search"></SearchBar>
+            <ListView x:Name="_lstEmpresas" ItemsSource="{Binding .}" HasUnevenRows="True" ItemTapped="_lstEmpresas_OnTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding razao}" Detail="{Binding telefone}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
